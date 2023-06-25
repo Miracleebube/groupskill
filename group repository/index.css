@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 3.5cm;
+    margin-left: 10cm;
+    width: fit-content;
+    border-radius: 0.6cm;
+    box-shadow: 10px 10px 5px;
+    hsla(265, 77%, 70%, 0.2);
+}
+.first-div{
+    height: fit-content;
+    width: fit-content;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 33%) 80%);
+    border-radius: 0.6cm;
+    justify-content: center;
+    white-space: nowrap;
+}
+.second-div{
+    height: fit-content;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.second-div .sum p{
+font-size: 16px;
+font-weight: 700;
+}
+
+.first-div .rev{
+    padding: 15px;
+    color: #fff;
+    margin-left: 1.2cm;
+    font-weight: 500;
+}
+
+.sub-div{
+    border-radius: 50%;
+    background: linear-gradient(hsla(241, 81%, 33%, 0.5)45%, hsla(252, 100%, 67%, 0.1));
+    margin-top: 18px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    width: 3.1cm;
+    height: 3cm;
+    position: relative;
+}
+
+#reed{
+    font-size: 40px;
+    font-weight: 800;
+}
+.para{
+    margin-top: -20px;
+}
+
+.para p{
+    font-size: small;
+    opacity: 40%;
+}
+
+.sub-div h2, .sub-div p{
+    color: #fff;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.first-sub .great{
+    color: #fff;
+    margin-left: 2cm;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+.first-sub .one{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.first-sub .two{
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+.first-sub .three{
+    margin-left: 75px;
+    margin-right: 15px;
+}
+
+.first-sub{
+    margin-bottom: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.first-sub .sep{
+    font-size: small;
+    font-weight: 500px;
+}
+
+.contain1{
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: hsla(0, 100%, 67%, 0.1);
+    color: hsla(0, 100%, 67%);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 9px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.contain2{
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 9px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.contain3{
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 9px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.contain4{
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background: hsla(256, 72%, 46%, 0.1);
+    color: hsl(256, 72%, 46%, 1);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 9px;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.sum{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.contain1 .react, .contain2 .react2, .contain3 .react3, .contain4 .react4{
+    margin-left: 10px;
+}
+
+.contain1 .writeup, .contain2 .writeup2, .contain3 .writup3, .contain4 .writeup4{
+    margin-left: 10px;
+}
+
+.contain1 .eighty, .contain2 .eighty2, .contain3 .eighty3, .contain4 .eighty4{
+    margin-left: 45px;
+    color: #000;
+}
+
+.contain1 .over100, .contain2 .over1002, .contain3 .over1003, .contain4 .over1004{
+    margin-left: 4px;
+    margin-right: 8px;
+    opacity: 40%;
+    color: #000;
+}
+
+.btn{
+    width: 210px;
+    background: hsl(241, 81%, 33%);
+    margin-left: 20px;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.btn button{
+    margin-left: 67px;
+    background: transparent;
+    border: none;
+    color: orangered
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.btn:hover{
+    background: pink;
+}
+
+@media(max-width:375px){.main-
+    container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        border-radius: 0;
+        margin-top: 0;
+    }
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+p.re{
+    text-align: center;
+}
+.first-div{
+    border-radius: 0 0 0.6cm;
+    margin-top: 3px;
+}
+.second-div{
+    margin-bottom: 20px;
+}
+}
